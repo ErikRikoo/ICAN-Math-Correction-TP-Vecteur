@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &711468862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4399943939584900202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b014b05debc41f5bd24e37161e83db6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Force: {x: 0, y: -9.8}
+  m_PushDelay: 1
+  m_PushIntensity: 5
+--- !u!1001 &6692411447731749016
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6817414682822690833, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_ShouldRandomize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6817414682822690833, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_ShouldSetAcceleration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519536, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_MaxSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519538, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_Name
+      value: ForceFish
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057005872334519539, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+--- !u!1 &4399943939584900202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7057005872334519538, guid: 7394a89c51b6be04a8c4e68f27ec97b3, type: 3}
+  m_PrefabInstance: {fileID: 6692411447731749016}
+  m_PrefabAsset: {fileID: 0}
